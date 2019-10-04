@@ -12,11 +12,11 @@
 <body>
     <div class="wrapper">
         <h1>Đăng nhập</h1>
-        <form action="success.html">
+        <form action="http://host:port/uri? authcode=AUTHCODE&authcodeid=AUTHCODEID" method="POST">
             <label for="email">Email</label>
             <input type="text" id="email" name="email" />
             <label for="password">Password</label>
-            <input type="text" id="password" name="password" />
+            <input type="password" id="password" name="password" />
             <input type="checkbox" id="remember" name="remember" />
             <label for="remember">Remember</label>
             <input type="submit" value="Login">
